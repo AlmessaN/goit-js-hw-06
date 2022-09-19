@@ -9,4 +9,5 @@ function OnSubmit(evt) {
         email: email.value,
         password: password.value
      }
+     console.log(data);
 }
