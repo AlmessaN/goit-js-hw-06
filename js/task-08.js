@@ -10,4 +10,5 @@ function OnSubmit(evt) {
         password: password.value
      }
      console.log(data);
+     event.currentTarget.reset();
 }
